@@ -387,6 +387,7 @@ class AddContactsViewController: UIViewController, UIPickerViewDelegate, UIPicke
     }
 }
 
+//email name format
 extension String{
     var isValidName: Bool {
         let nameRegEx = "[A-Za-z ]{2,20}"
